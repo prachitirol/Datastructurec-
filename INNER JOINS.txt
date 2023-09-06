@@ -1,0 +1,8 @@
+query
+Inner joins
+Select * from table_1 INNER JOIN table_2 ON table_1.commontable = table_2.commontable
+
+
+*example of INNER JOINS in sql
+  Select * from customer INNER JOIN orders ON customer.cid
+= orders.cid;
