@@ -1,0 +1,8 @@
+* Left joins is also known as outer left joins
+ Syntax-
+Select * from table_1 LEFT JOIN table_2 ON table_1.commontable = table_2.commontable
+
+
+* example of left joins -
+  Select * from customer LEFT JOIN orders ON customer.cid
+= orders.cid;
