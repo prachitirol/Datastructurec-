@@ -1,0 +1,4 @@
+Find the difference between the total number of CITY entries in the table and the number of distinct CITY entries in the table.
+
+QUERY FIND
+select count(*) - count(DISTINCT CITY) AS difference from STATION;
