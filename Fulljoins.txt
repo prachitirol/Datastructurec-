@@ -2,6 +2,6 @@
 Select * from table_1 FULL JOIN table_2 ON table_1.commontable = table_2.commontable
 
 
-example of Fulljoins
+//example of Fulljoins
   Select * from customer FULL JOIN orders ON customer.cid
 = orders.cid;
